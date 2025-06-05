@@ -4,7 +4,7 @@ It includes user registration, username verification, password checking with lim
 
 ---
 
-## 🧠 What I used
+##  What I used
 - Python code with functions
 - Basic logic for user authentication
 - Using loops and conditionals
@@ -17,6 +17,7 @@ It includes user registration, username verification, password checking with lim
 2.Run the code:
 ------
 Code:
+##
 username=input("You will register with this username:")
 
 password=input('Set strong password adn remember it :')
@@ -47,10 +48,10 @@ while new_pass != password:
             break
 
 
-# 🔐 Mini game(Guess the number)
+#  Mini game(Guess the number)
 Easy Python project where the system create random code from range and you need to guess it ,the game dont stop till you type "Stop".
 ---------
-## 🧠 What I used
+##  What I used
 - Python code with functions
 - Basic logic for user authentication
 - Using loops and conditionals
@@ -61,6 +62,7 @@ Easy Python project where the system create random code from range and you need 
 2.Run the code:
 -----------
 Code:
+##
 import random
 print(f"Hello this is 'Guess the number' if you want to stop playing type 'Stop'")
 print('==============')
