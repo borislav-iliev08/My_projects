@@ -11,7 +11,7 @@ It includes user registration, username verification, password checking with lim
 - Creating clean, readable code
 
 ------
-##Code:
+## Code
 
 username=input("You will register with this username:")
 
