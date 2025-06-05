@@ -48,11 +48,11 @@ while new_pass != password:
 
 
 
-
-
-
-
-
+----------------
+---------------
+----------------
+------------------
+-------------------
 
 #  Mini game(Guess the number)
 Easy Python project where the system create random code from range and you need to guess it ,the game dont stop till you type "Stop".
@@ -71,7 +71,7 @@ print(f"Hello this is 'Guess the number' if you want to stop playing type 'Stop'
 print('==============')
 number=input("Please enter you're guess here: ")
 while number!='Stop':
-   random_numb=random.randint(1,100+1)
+   random_numb=random.randint(1,20+1)
    int_num=int(number)
    if int_num==random_numb:
     print(f'Exellent you guessed it right!')
