@@ -43,6 +43,17 @@ while new_pass != password:
             break
 
 
+
+
+
+
+
+
+
+
+
+
+
 #  Mini game(Guess the number)
 Easy Python project where the system create random code from range and you need to guess it ,the game dont stop till you type "Stop".
 ---------
