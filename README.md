@@ -10,14 +10,9 @@ It includes user registration, username verification, password checking with lim
 - Using loops and conditionals
 - Creating clean, readable code
 
----
-
-## 🗂️ How to run
-1. Copy the code:
-2.Run the code:
 ------
-Code:
-##
+##Code:
+
 username=input("You will register with this username:")
 
 password=input('Set strong password adn remember it :')
@@ -57,12 +52,9 @@ Easy Python project where the system create random code from range and you need 
 - Using loops and conditionals
 - Creating clean, readable code
  ----------
-## 🗂️ How to run
-1. Copy the code:
-2.Run the code:
------------
-Code:
-##
+
+## Code
+
 import random
 print(f"Hello this is 'Guess the number' if you want to stop playing type 'Stop'")
 print('==============')
