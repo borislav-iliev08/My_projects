@@ -85,4 +85,30 @@ while number!='Stop':
         print(f'Have a grat day!Come back soon!')
 
 
+#SET TIMER
+-----------------------------
+#What i use
+-Importing from library
+-Loops
+-Time_sleep option
+-printing string from type(int)
+#Code
+import time
 
+
+timerDuration = int(input('Time in sec:'))
+hours=0
+mins=0
+sec=0
+for i in range(timerDuration):
+    print('\n'*100)
+    sec+=1
+    if sec ==60:
+        mins+=1
+        sec=0
+    if mins==60:
+        hours+=1
+        mins=0
+
+    print(f'{str(hours)}:{str(mins)}:{str(sec)}')
+    time.sleep(1)
